@@ -3,12 +3,7 @@ import ToDoForm from "./components/ToDoForm";
 import ToDoList from "./components/ToDoList";
 
 function App() {
-	const [todos, setTodos] = useState([
-		"Finish homework",
-		"Wash dishes",
-		"Clean room",
-		"Make waffles",
-	]);
+	const [todos, setTodos] = useState([]);
 
 	return (
 		<div className="min-w-screen min-h-screen bg-gray-800 text-center text-white p-8">
